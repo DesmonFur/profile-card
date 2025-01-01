@@ -1,5 +1,110 @@
 /* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
 
-.btn-secondary {
-  color: red;
+.container {
+  margin: 0 auto;
+  width: 512px;
+  height: 755px;
+  background-color: #fff;
+  /* border-radius: 64px; */
+  position: relative;
+}
+
+.bg-primary,
+.bg-secondary,
+.bg-tertiary {
+  position: absolute;
+  width: 100%;
+  height: 190px;
+  top: 0;
+}
+
+.bg-primary {
+  height: 200px;
+  width: 100%;
+  background-color: #a2345c;
+}
+
+.bg-secondary {
+  height: 210px;
+  width: 100%;
+  background-color: #a2345c;
+}
+
+.bg-tertiary {
+  height: 220px;
+  width: 100%;
+  background-color: #a2345c;
+}
+header {
+  position: relative;
+  height: 190px;
+}
+
+/* first curve */
+.custom-shape-divider-top-1735701813 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+.custom-shape-divider-top-1735701813 svg {
+  position: relative;
+  display: block;
+  width: calc(162% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-top-1735701813 .shape-fill {
+  fill: #a2345c;
+}
+
+/* second curve */
+.custom-shape-divider-top-1735701848 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+.custom-shape-divider-top-1735701848 svg {
+  position: relative;
+  display: block;
+  width: calc(162% + 1.3px);
+  height: 240px;
+}
+
+.custom-shape-divider-top-1735701848 .shape-fill {
+  fill: #bc5473;
+}
+
+/* third curve */
+
+.custom-shape-divider-top-1735701861 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1735701861 svg {
+  position: relative;
+  display: block;
+  width: calc(162% + 1.3px);
+  height: 260px;
+}
+
+.custom-shape-divider-top-1735701861 .shape-fill {
+  fill: #df3f8c;
 }
