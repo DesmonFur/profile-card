@@ -5,7 +5,7 @@
   width: 512px;
   height: 755px;
   background-color: #fff;
-  /* border-radius: 64px; */
+  border-radius: 64px;
   position: relative;
 }
 
@@ -38,6 +38,24 @@
 header {
   position: relative;
   height: 190px;
+}
+
+.profile-photo-container {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Must be equal to width for a perfect circle */
+  border-radius: 50%; /* This is the key */
+  overflow: hidden; /* Ensures the image stays within the circle */
+}
+.profile-photo {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  z-index: 3;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 /* first curve */
